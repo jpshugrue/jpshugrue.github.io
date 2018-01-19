@@ -48,6 +48,33 @@
 		-webkit-text-size-adjust: none;
 	}
 
+/* User Added */
+
+
+.skills {
+		display: flex;
+		justify-content: space-between;
+		text-align: center;
+		flex-direction: column;
+}
+
+.group {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.devicon {
+	padding: 10px;
+	float: left;
+	display: block;
+	width: 120px;
+}
+
+ul.group:last-child {
+	margin-bottom: 0px;
+}
+
 /* Box Model */
 
 	*, *:before, *:after {
