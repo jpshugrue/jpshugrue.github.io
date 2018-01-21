@@ -2501,7 +2501,8 @@ ul.group:last-child {
 			}
 
 				.feature.left .image img {
-					right: 0;
+					/* object-fit: cover; */
+				  object-position: 50% 50%;
 					top: 0;
 				}
 
@@ -2632,7 +2633,7 @@ ul.group:last-child {
 
 	#footer {
 		background-attachment: scroll;
-		background-color: #4eb980;
+		background-color: #473848;
 		background-image: url("images/bottom-3200.svg");
 		background-position: top center;
 		background-repeat: repeat-x;
